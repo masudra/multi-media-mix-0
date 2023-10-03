@@ -4,6 +4,7 @@ import {
 import Home from "../Pages/Home/Home";
 import Main from "../LayOut/Main";
 import MeetUpHome from "../Pages/MeetUp/MeetUpHome/MeetUpHome";
+import SingelMeetUp from "../Pages/MeetUp/SingelMeetUp/SingelMeetUp";
 
 
 
@@ -19,6 +20,10 @@ import MeetUpHome from "../Pages/MeetUp/MeetUpHome/MeetUpHome";
         {
             path: '/meetup',
             element: <MeetUpHome></MeetUpHome>,
+        },
+        {
+            path: '/meetup/:id',
+            element: <SingelMeetUp></SingelMeetUp>,
         },
        
         
