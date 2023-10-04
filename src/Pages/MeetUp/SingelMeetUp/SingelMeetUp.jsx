@@ -3,7 +3,8 @@ import Footer from "../Shared/Footer";
 
 const SingelMeetUp = () => {
     return (
-        <div className="bg-slate-900">
+        <div className="bg-zinc-700">
+
             <Footer></Footer>
             
         </div>
