@@ -76,7 +76,7 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* Host Control*/}
-                    <label htmlFor="my-drawer-4" className="hover:Fbg-[rgb(60,64,67)]  hover:rounded-full"><HiOutlineLockClosed title='Host control' className='w-[25px] h-[25px]'></HiOutlineLockClosed></label>
+                    <label htmlFor="my-drawer-4" className="hover:bg-[rgb(60,64,67)]  hover:rounded-full"><HiOutlineLockClosed title='Host control' className='w-[25px] h-[25px]'></HiOutlineLockClosed></label>
                     <div className="drawer drawer-end">
                         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
                         <div className="drawer-side ">
