@@ -23,7 +23,7 @@ const Footer = () => {
                 <div className="flex justify-end gap-3 my-auto mr-7">
                     {/*Information  */}
 
-                    <label htmlFor="my-drawer-1" className=""><AiOutlineInfoCircle className='w-[25px] h-[25px]'></AiOutlineInfoCircle></label>
+                    <label htmlFor="my-drawer-1" className="hover:bg-zinc-800 hover:rounded-full"><AiOutlineInfoCircle title=' Meetup details' className='w-[25px] h-[25px] '></AiOutlineInfoCircle></label>
                     <div className="drawer drawer-end">
                         <input id="my-drawer-1" type="checkbox" className="drawer-toggle" />
                         <div className="drawer-side ">
@@ -36,7 +36,7 @@ const Footer = () => {
                     </div>
 
                     {/* Peoples */}
-                    <label htmlFor="my-drawer-2" className=""><BsFillPeopleFill className='w-[25px] h-[25px]'></BsFillPeopleFill></label>
+                    <label htmlFor="my-drawer-2" className="hover:bg-zinc-800 hover:rounded-full"><BsFillPeopleFill title='Show everyone' className='w-[25px] h-[25px]'></BsFillPeopleFill></label>
                     <div className="drawer drawer-end">
                         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
                         <div className="drawer-side ">
@@ -52,7 +52,7 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* Messages */}
-                    <label htmlFor="my-drawer-3" className=""><BiMessageDetail className='w-[25px] h-[25px]'></BiMessageDetail></label>
+                    <label htmlFor="my-drawer-3" className="hover:bg-zinc-800 hover:rounded-full"><BiMessageDetail title=' Message with everyone' className='w-[25px] h-[25px]'></BiMessageDetail></label>
                     <div className="drawer drawer-end">
                         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                         <div className="drawer-side ">
@@ -73,11 +73,11 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* Host Control*/}
-                    <label htmlFor="my-drawer-4" className=""><HiOutlineLockClosed className='w-[25px] h-[25px]'></HiOutlineLockClosed></label>
+                    <label htmlFor="my-drawer-4" className="hover:bg-zinc-800  hover:rounded-full"><HiOutlineLockClosed title='Host control' className='w-[25px] h-[25px]'></HiOutlineLockClosed></label>
                     <div className="drawer drawer-end">
                         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
                         <div className="drawer-side ">
-                            <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
+                           <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                             <div className="menu p-4 lg:w-[370px] w-72 h-[480px] rounded-xl  mt-5 mb-5  bg-base-200 text-base-content">
                                 {/* Sidebar content here */}
                                 <h1>hello id 4</h1>
