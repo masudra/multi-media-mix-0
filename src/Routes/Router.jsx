@@ -5,6 +5,7 @@ import Home from "../Pages/Home/Home";
 import Main from "../LayOut/Main";
 import MeetUpHome from "../Pages/MeetUp/MeetUpHome/MeetUpHome";
 import SingelMeetUp from "../Pages/MeetUp/SingelMeetUp/SingelMeetUp";
+import FriendLinkHome from "../Pages/FriendLink/FriendLinkHome/FriendLinkHome";
 
 
 
@@ -25,6 +26,10 @@ import SingelMeetUp from "../Pages/MeetUp/SingelMeetUp/SingelMeetUp";
             path: '/meetup/:id',
             element: <SingelMeetUp></SingelMeetUp>,
         },
+        {
+          path: '/friend-link-home',
+          element: <FriendLinkHome></FriendLinkHome>,
+      }
        
         
       ]
